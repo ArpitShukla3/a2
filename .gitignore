@@ -1,0 +1,32 @@
+# Node and React output
+node_modules/
+.pnp
+.pnp.js
+coverage/
+/src/app/build/
+
+# Python output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local MongoDB and SQLite data
+/db/
+/src/db/
+/src/mongo_data/
+/src/src/db/
+/src/src/tmp/
+/src/rest/mydatabase
+*.sqlite3
+
+# Local temporary files
+/tmp/
+/src/tmp/
+*.log
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+!.env.example
